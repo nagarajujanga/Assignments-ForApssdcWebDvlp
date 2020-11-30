@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form elements</title>
+</head>
+<body>
+    Make sure to include text, phone number, search, URL, email, password, date, month, week,
+time, color, radio button, checkbox, file(single & multiple), auto complete, maxlength for input
+field, size for input field, readonly, pattern for particular input field, min value & max value,
+steps to increase count of number, range and submit & reset.
+
+<form >
+    <label for="uname">Name:</label>
+    <div><input type="text" id="uname" placeholder="Enter User Name" pattern="[A-Z,a-Z,0-9]{50}" autofocus></div>
+     
+    <label for="phnuumber">PhoneNumber:</label>
+    <div><input type="number" id="phnumber" placeholder="Enter Phone Number" ></div>
+    
+    <label id="emial">Email:</label>
+    <div><input type="email" id="email" placeholder="Enter Your Email" required></div>
+    
+    <label for="dob">DateOfBirth</label>
+    <div><input type="date" id="dob" min="1-1-1995"></div>
+
+    <label for="Facebookurl">FaceBookUrl:</label>
+    <div><input type="url" id="uname" placeholder="Enter Your FaceBookUrl"></div>
+    
+    <label for="gender">Gender</label>
+    <div><input type="radio" name="gender" >Male>
+        <input type="radio" name="gender">Female</div>
+     <label>SelcectCourses</label>
+   <div>  <input type="checkbox">M.P.C</div>
+   <div>  <input type="checkbox">Bi.P.C</div>
+   <div>  <input type="checkbox">M.E.C</div>
+     <label>10ThMarks</label>
+   <div><label for="number">Search:</label></div>
+   <div><input type="number" min="35" max="100" step="3"></div> 
+  <div><input type="search"></div>
+
+  <label for="file">UploadFiles</label>
+  <div><input type="file" id="file" multiple></div>
+
+  <label for="comments">Comments</label>
+  <input type="text-area" height="100px" weight="100px">
+
+<label for="submit"></label>
+<input type="submit"> 
+<input type="reset">
+</form>
+
+</body>
+</html>
